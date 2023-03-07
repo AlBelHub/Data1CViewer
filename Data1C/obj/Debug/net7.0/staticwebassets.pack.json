@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1C\\wwwroot\\styles\\BaseStyle.css",
+      "PackagePath": "staticwebassets\\styles\\BaseStyle.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Data1C.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Data1C.props",
+      "PackagePath": "build\\Data1C.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Data1C.props",
+      "PackagePath": "buildMultiTargeting\\Data1C.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Data1C.props",
+      "PackagePath": "buildTransitive\\Data1C.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

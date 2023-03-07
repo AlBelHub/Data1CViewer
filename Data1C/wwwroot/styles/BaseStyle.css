@@ -1,0 +1,30 @@
+﻿body {
+    background-color: white;
+    margin:0;
+}
+
+.div1 {
+    border: dotted;
+    border-color:red;
+}
+
+.navbar {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width: 20%;
+    border:dashed;
+
+}
+
+li a {
+    display:block;
+    color:black;
+    padding: 8px 16px;
+    text-decoration:none;
+}
+
+li a:hover{
+    background-color:aqua;
+    color:white;
+}
