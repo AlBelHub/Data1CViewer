@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WB1Gnbmo8FGWbk0ujisXO7GjgdizSnH4vAJCDZbvGZc=",
+  "Hash": "aqx0rJC7GIPdFdu0KFwxetOV1TlpmBls/QlsHdFH7fU=",
   "Source": "Data1C",
   "BasePath": "_content/Data1C",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Data1C\\wwwroot",
       "Source": "Data1C",
-      "ContentRoot": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1C\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\",
       "BasePath": "_content/Data1C",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1C\\wwwroot\\styles\\BaseStyle.css",
+      "Identity": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\styles\\BaseStyle.css",
       "SourceId": "Data1C",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1C\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\",
       "BasePath": "_content/Data1C",
       "RelativePath": "styles/BaseStyle.css",
       "AssetKind": "All",

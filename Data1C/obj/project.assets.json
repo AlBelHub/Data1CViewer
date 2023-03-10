@@ -3392,11 +3392,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1C\\Data1C.csproj",
+      "projectUniqueName": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\Data1C.csproj",
       "projectName": "Data1C",
-      "projectPath": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1C\\Data1C.csproj",
+      "projectPath": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\Data1C.csproj",
       "packagesPath": "C:\\Users\\am.belov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1C\\obj\\",
+      "outputPath": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

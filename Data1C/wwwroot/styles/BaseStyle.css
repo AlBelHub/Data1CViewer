@@ -3,28 +3,21 @@
     margin:0;
 }
 
-.div1 {
+.wrapper {
     border: dotted;
-    border-color:red;
+    border-color: red;
+    position:inherit;
+    height:100%;
+    width:100%;
 }
 
-.navbar {
-    list-style-type: none;
-    margin:0;
-    padding:0;
-    width: 20%;
-    border:dashed;
-
-}
-
-li a {
-    display:block;
-    color:black;
-    padding: 8px 16px;
-    text-decoration:none;
-}
-
-li a:hover{
-    background-color:aqua;
-    color:white;
+.sidebar {
+    border: dotted;
+    border-color: black;
+    position:fixed;
+    width: 270px;
+    height: 100%;
+    overflow-x:hidden;
+    background-color: black;
+    opacity:0.2;
 }

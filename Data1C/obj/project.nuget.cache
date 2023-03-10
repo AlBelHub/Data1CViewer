@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m6XJdfuiDF/2Ew2ccHoyQ9nnsqrToFYfiTBs36R9rPR2C/PKRHQFSbNb3fq3+gBuPqYFTM3e17AvC0K1KRAESg==",
+  "dgSpecHash": "X93uDtLJzxgLLvFNBwqjkr0hO8EvXliR/HnDyuYRjVqlSyjwwr9kArFaP/cNm4SUzktxYvrIv0UeuuIRyBVJhA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1C\\Data1C.csproj",
+  "projectFilePath": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\Data1C.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\am.belov\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\am.belov\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
