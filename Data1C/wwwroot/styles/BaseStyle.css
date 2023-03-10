@@ -1,9 +1,64 @@
 ﻿body {
-    background: linear-gradient(to top, #34BFD9, 65%, #3CA9F8);
+    background-color: cornflowerblue;
     margin: 0;
 }
 
 .top {
-    border: dotted;
-    border-color: black;
+/*    border: dotted;
+    border-color: black;*/
+    border-radius: 10px;
+    background-color:snow;
+    margin: 25px 35% 25px 35%;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:flex-start;
+}
+
+.content {
+/*    border: dotted;
+    border-color: yellow;*/
+    border-radius: 10px;
+    background-color: snow;
+    position: absolute;
+    top: 95px;
+    left: 1%;
+    bottom: 2%;
+    right: 1%;
+}
+
+.menu {
+    /*    border: dotted;
+    border-color: red;*/
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    opacity: 0.5;
+    width: 35px;
+    height: 36px;
+    margin: 7px;
+    transition: all 0.5s ease;
+}
+
+.menu:hover {
+    height: 45px;
+    width: 45px;
+    margin: 4px;
+    background-color: lightblue;
+}
+
+.searchbar {
+    /*    border: dotted;
+    border-color: black;*/
+    border-radius: 10px;
+    background-color:cornflowerblue;
+    opacity: 0.5;
+    width: 95%;
+    margin: 7px;
+    box-shadow: none;
+    transition: all 0.5s ease;
+}
+
+.searchbar:hover {
+    margin: 2px;
+    background-color:lightblue;
 }

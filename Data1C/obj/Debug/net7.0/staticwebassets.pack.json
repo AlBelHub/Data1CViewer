@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\images\\blue-white-liquid-marble-abstract-background.jpg",
+      "PackagePath": "staticwebassets\\images\\blue-white-liquid-marble-abstract-background.jpg"
+    },
+    {
       "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\styles\\BaseStyle.css",
       "PackagePath": "staticwebassets\\styles\\BaseStyle.css"
     },
