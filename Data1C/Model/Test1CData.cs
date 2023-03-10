@@ -18,6 +18,9 @@ namespace Data1C.Model
             client.Encoding = Encoding.UTF8;
             client.BaseAddress = url;
 
+            
+
+
             var json = client.DownloadString(url);
             var ParsedJson = JObject.Parse(json);
             JArray a = (JArray)ParsedJson["value"];
