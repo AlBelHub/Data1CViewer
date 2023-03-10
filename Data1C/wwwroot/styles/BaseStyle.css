@@ -1,23 +1,9 @@
 ﻿body {
-    background-color: white;
-    margin:0;
+    background: linear-gradient(to top, #34BFD9, 65%, #3CA9F8);
+    margin: 0;
 }
 
-.wrapper {
-    border: dotted;
-    border-color: red;
-    position:inherit;
-    height:100%;
-    width:100%;
-}
-
-.sidebar {
+.top {
     border: dotted;
     border-color: black;
-    position:fixed;
-    width: 270px;
-    height: 100%;
-    overflow-x:hidden;
-    background-color: black;
-    opacity:0.2;
 }
