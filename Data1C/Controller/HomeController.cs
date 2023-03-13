@@ -16,6 +16,11 @@ namespace Data1C.Controllers
      
         }
 
+        public ViewResult LibraryData()
+        {
+            return View("Rumba");
+        }
+
         [HttpGet]
         public void MainMenu_Click(object sender, EventArgs e)
         {

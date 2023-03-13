@@ -1,12 +1,28 @@
 ﻿@{
-    Layout = null; 
+    Layout = null;
 }
 
 <html>
-    <head>
-        <title>UNAVOIDABLE</title>
-    </head>
-    <body>
-        <label>RUMBA RUMBA RUMBA</label>
-    </body>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UNAVOIDABLE</title>
+    @*<link rel="stylesheet" href="/Content/BaseStyle.css"/>*@
+    <link rel="stylesheet" href="~/styles/BaseStyle.css" />
+</head>
+<body>
+    <div class="top">
+        <div class="menu">
+
+            @*<a class="btn" asp-action="MainMenu_Click">A</a>*@
+        </div>
+        <input class="searchbar" type="text" placeholder="SEARCH">
+    </div>
+    <div class="content">
+        <a class="btn btn-primary" asp-action="LibraryData">Get Data</a>
+    </div>
+</body>
 </html>
+
+@{
+
+}
