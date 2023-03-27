@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Razor.TagHelpers;
+using Data1C.Model;
+using System.Xml.Linq;
 
 namespace Data1C.Controllers
 {
@@ -10,15 +12,26 @@ namespace Data1C.Controllers
             return View();
         }
 
-        public ActionResult Rumba()
+        public ActionResult LibraryData()
         {
             return View();
-     
         }
 
-        public ViewResult LibraryData()
+
+        
+        public ActionResult Get1C()
         {
-            return View("Rumba");
+
+            ConnectTo1C conn = new ConnectTo1C();
+            JsonParser parser = new JsonParser();
+            DBUtils db = new DBUtils("LibraryData", "root", "Pisacu1318!", "127.0.0.1");
+
+            string url = $"http://10.0.0.2/LIBRARY/odata/standard.odata/Catalog_БиблЗаписи?$format=json";
+
+
+            db.AddData(db.DBname, parser.ParseDataFrom1C(parser.client, url));
+
+            return View("Index");  
         }
 
         [HttpGet]

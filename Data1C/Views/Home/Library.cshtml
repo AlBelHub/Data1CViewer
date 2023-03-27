@@ -1,0 +1,32 @@
+﻿@{
+    Layout = null;
+}
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>LIBRARY</title>
+    @*<link rel="stylesheet" href="/Content/BaseStyle.css"/>*@
+    <link rel="stylesheet" href="~/styles/BaseStyle.css" />
+</head>
+<body>
+    <div class="top">
+        <div class="menu">
+
+            @*<a class="btn" asp-action="MainMenu_Click">A</a>*@
+        </div>
+        <input class="searchbar" type="text" placeholder="SEARCH">
+    </div>
+    <div class="content">
+        <div class="buttonContainer">
+            <a class="btn" asp-action="Get1C">Обновить (1С)</a>
+            <a class="btn" asp-action="GetDBConnect">Подключиться к БД</a>
+            <a class="btn" asp-action="DownloadToDB">Загрузить в базу</a>
+        </div>
+    </div>
+</body>
+</html>
+
+@{
+
+}
