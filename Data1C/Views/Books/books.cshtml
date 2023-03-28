@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Data1C.Model.Book>
+@{
+    @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+}
+
+<h2>Index</h2>
+
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap.css"/>
+</head>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.BookCode)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Author)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.AuthorMark)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.BookDescription)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Publisher)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Location)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.DateOfCreation)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BookCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Author)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AuthorMark)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BookDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Publisher)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Location)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateOfCreation)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

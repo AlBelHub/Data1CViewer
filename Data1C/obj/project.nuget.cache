@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2ENE6/D8zAdveEjWAdOre/6m7EXFGv93eqeg1gO4Mj1vLyWOj9LfIxcOscQ+GJPEqBrcA25lkTAWVuUoZyeiMQ==",
+  "dgSpecHash": "0bqeoMTtwpwHPvuCFNiqPCaiwxh+5tueCIiCDwGEJUyhdkesCBwXvQaoQrdHqJNvlec82ghCdQOmKPkONzSZSg==",
   "success": true,
   "projectFilePath": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\Data1C.csproj",
   "expectedPackageFiles": [
@@ -40,7 +40,7 @@
     "C:\\Users\\am.belov\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\am.belov\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\am.belov\\.nuget\\packages\\mysql.data\\8.0.32.1\\mysql.data.8.0.32.1.nupkg.sha512",
-    "C:\\Users\\am.belov\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\am.belov\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\am.belov\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
     "C:\\Users\\am.belov\\.nuget\\packages\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",
     "C:\\Users\\am.belov\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",

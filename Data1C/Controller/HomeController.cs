@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Razor.TagHelpers;
 using Data1C.Model;
-using System.Xml.Linq;
+
 
 namespace Data1C.Controllers
 {
@@ -24,7 +23,7 @@ namespace Data1C.Controllers
 
             ConnectTo1C conn = new ConnectTo1C();
             JsonParser parser = new JsonParser();
-            DBUtils db = new DBUtils("LibraryData", "root", "Pisacu1318!", "127.0.0.1");
+            DBUtils db = new DBUtils();
 
             string url = $"http://10.0.0.2/LIBRARY/odata/standard.odata/Catalog_БиблЗаписи?$format=json";
 

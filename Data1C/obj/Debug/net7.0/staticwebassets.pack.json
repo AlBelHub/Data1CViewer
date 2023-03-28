@@ -1,8 +1,184 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\am.belov\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
       "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\images\\blue-white-liquid-marble-abstract-background.jpg",
       "PackagePath": "staticwebassets\\images\\blue-white-liquid-marble-abstract-background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap.rtl.min.css.map"
     },
     {
       "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\styles\\BaseStyle.css",

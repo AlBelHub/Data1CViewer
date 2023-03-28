@@ -4,10 +4,10 @@
     margin: 0;
 }
 
-.top {
+/*.top {*/
     /*    border: dotted;
     border-color: black;*/
-    border-radius: 10px;
+    /*border-radius: 10px;
     background-color: #301E67;
     margin: 25px 35% 25px 35%;
     height: 50px;
@@ -23,10 +23,10 @@
         text-align: center;
     }
 
-.content {
+.content {*/
     /*    border: dotted;
     border-color: yellow;*/
-    border-radius: 10px;
+    /*border-radius: 10px;
     background-color: #301E67;
     position: absolute;
     top: 95px;
@@ -51,6 +51,13 @@
     transition: all 1s ease;
 }
 
+.DataGridContainer {
+    border:dashed;
+    border-color: red;
+    right:10px;
+    width:50%;
+}
+
 .btn {
     background-color: #5B8FB9;
     border-radius: 10px;
@@ -67,17 +74,17 @@
     background-color: lightblue;
 }
 
-.menu {
+.menu {*/
     /*    border: dotted;
     border-color: red;*/
-    border-radius: 10px;
+    /*border-radius: 10px;
     background-color: #5B8FB9;
     width: 35px;
     height: 36px;
     margin: 7px;
     transition: all 0.5s ease;
     z-index: 2;
-}
+}*/
 
 /*.btn {
     display: inline-block;
@@ -94,22 +101,22 @@
     font-size: 15px;
 }*/
 
-    .menu:hover {
+    /*.menu:hover {
         height: 45px;
         width: 45px;
         margin: 4px;
         background-color: #B6EADA;
-    }
+    }*/
 
 /*.menu:active {
     height: 450px;
     width: 100%;
 }*/
 
-.searchbar {
+/*.searchbar {*/
     /*    border: dotted;
     border-color: black;*/
-    border-radius: 10px;
+    /*border-radius: 10px;
     background-color: #5B8FB9;
     width: 95%;
     margin: 7px;
@@ -128,5 +135,5 @@
 
 ::placeholder {
     color:black;
-}
+}*/
 

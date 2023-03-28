@@ -14,13 +14,13 @@ namespace Data1C.Model
     {
         private MySqlConnection conn;
 
-        public string DBname = "Library";
+        public string DBname = "Librarydata";
         public string UID = "root";
         public string DBpassword = "Pisacu1318!";
         public string ServerAddr = "127.0.0.1";
         public string ConString = string.Empty;
 
-        public DBUtils(string DBname,string UID, string DBpassword, string ServerAddr)
+        public DBUtils()
         {
 
             MySqlConnectionStringBuilder settings = new MySqlConnectionStringBuilder()
@@ -35,6 +35,7 @@ namespace Data1C.Model
 
             conn = new MySqlConnection();
             conn.ConnectionString = settings.ConnectionString;
+            ConString = conn.ConnectionString;
         }
 
         /// <summary>
