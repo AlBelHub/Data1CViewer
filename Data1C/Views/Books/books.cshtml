@@ -1,16 +1,27 @@
 ﻿@model IEnumerable<Data1C.Model.Book>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
-    @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+    Layout = "_ViewImports";
 }
 
-<h2>Index</h2>
 
-<head>
-    <link rel="stylesheet" href="~/lib/bootstrap.css"/>
-</head>
 
 <p>
-    <a asp-action="Create">Create New</a>
+@*    <a asp-action="Create">Create New</a>
+    <select class="form-select">
+        <option value="0">Показать всё</option>
+        <option value="100">Показать 100</option>
+        <option value="1000">Показать 1000</option>
+    </select>*@
+
+    @using (Html.BeginForm())
+    {
+        <div>
+            @Html.DropDownList("SelectedCount", new SelectList(new[] {0,10,100} ))
+            <button type="submit">UVIDET:</button>
+        </div>
+    }
+
 </p>
 
 <table class="table">

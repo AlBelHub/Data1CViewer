@@ -1,29 +1,22 @@
-﻿@{
-    Layout = null; 
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = "_ViewImports"; 
 }
 
 <html>
     <head>
         <meta name="viewport" content="width=device-width"/>
         <title>UNAVOIDABLE</title>
-        @*<link rel="stylesheet" href="/Content/BaseStyle.css"/>*@
-        <link rel="stylesheet" href="~/styles/BaseStyle.css"/>
+        <link rel="stylesheet" href="~/lib/bootstrap.css"/>
     </head>
-    <body>
-        <div class="top">
-            <div class="menu">
-
-                @*<a class="btn" asp-action="MainMenu_Click">A</a>*@
-            </div>
-            <input class="searchbar" type="text" placeholder="SEARCH">
-        </div>
+    <body class="bg-body">
         <div class="content">
             <div class="DataGridContainer">
 
             </div>
             <div class="buttonContainer">
-                <a class="btn" asp-action="LibraryData">---</a>
-                <a class="btn" asp-action="Get1C">РАБОЧАЯ КНОПКА</a>
+                <a class="btn btn-primary" asp-action="LibraryData">Просмотр базы</a>
+                <a class="btn btn-danger disabled" asp-action="Get1C">1C экспорт</a>
                 <a class="btn" asp-action="GetDBConnect">---</a>
                 <a class="btn" asp-action="DownloadToDB">---</a>
             </div>

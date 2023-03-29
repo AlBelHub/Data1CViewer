@@ -13,7 +13,7 @@ namespace Data1C.Controllers
 
         public ActionResult LibraryData()
         {
-            return View();
+            return RedirectToAction("Index", "Books");
         }
 
 

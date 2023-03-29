@@ -5,14 +5,12 @@ namespace Data1C.Model
 {
     public class BookDataAccessLayer
     {
-
         /// <summary>
         /// Get all books in library
         /// </summary>
-        public IEnumerable<Book> GetAllBooks()
+        public IEnumerable<Book> GetAllBooks(int DBlimit)
         {
             List<Book> books = new List<Book>();
-
 
             using (MySqlConnection conn = new MySqlConnection())
             {
@@ -23,7 +21,7 @@ namespace Data1C.Model
                 conn.Open();
                 MySqlDataReader reader = cmd.ExecuteReader();
 
-                for (int i = 0; i < 10; i++)
+                for (int i = 0; i< 100; i++)
                 {
                     reader.Read();
                     Book book = new Book();

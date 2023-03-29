@@ -24,5 +24,6 @@ namespace Data1C.Model
         public DateTime DateOfLastChanges { get; set; }
         [JsonProperty("ДатаСозданияЗаписи")]
         public DateTime DateOfCreation { get; set; }
+        public int DBlimit { get; set; }
     }
 }

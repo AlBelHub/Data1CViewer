@@ -8,19 +8,41 @@ namespace Data1C.Controllers
 
         BookDataAccessLayer BookDataAccessLayer;
 
-        public BooksController() 
+        public BooksController()
         {
             BookDataAccessLayer = new BookDataAccessLayer();
         }
 
         // GET: BooksController
+        [HttpGet]
         public ActionResult Index()
         {
-            
-            IEnumerable<Book> books = BookDataAccessLayer.GetAllBooks();
-            return View("books",books);
+            IEnumerable<Book> books = BookDataAccessLayer.GetAllBooks(10);
+            List<Book> result = new List<Book>();
+            result.AddRange(books);
 
+            return View("books",result);
         }
+
+        //[HttpPost]
+        //public ActionResult Index(List<Book> books,int DBlimit)
+        //{
+
+        //    if (DBlimit == 0)
+        //    {
+
+        //        return View("books", books);
+        //    }
+        //    else if (DBlimit == 10)
+        //    {
+                
+        //    }
+        //    else
+        //    {
+        //    }
+
+        //    return View("books", books);
+        //}
 
         // GET: BooksController/Details/5
         public ActionResult Details(int id)
