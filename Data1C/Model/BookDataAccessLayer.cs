@@ -21,27 +21,9 @@ namespace Data1C.Model
                 conn.Open();
                 MySqlDataReader reader = cmd.ExecuteReader();
 
-                for (int i = 0; i< 100; i++)
-                {
-                    reader.Read();
-                    Book book = new Book();
-                    book.BookCode = Convert.ToString(reader["BookCode"]);
-                    book.BookDescription = Convert.ToString(reader["BookDescription"]);
-                    book.Author = Convert.ToString(reader["Author"]);
-                    book.AuthorMark = Convert.ToString(reader["AuthorMark"]);
-                    book.ProdYear = Convert.ToString(reader["ProdYear"]);
-                    book.DateOfLastChanges = Convert.ToDateTime(reader["DateOfLastChanges"]);
-                    book.DateOfCreation = Convert.ToDateTime(reader["DateOfCreation"]);
-                    book.Publisher = Convert.ToString(reader["Publisher"]);
-                    book.Location = Convert.ToString(reader["Location"]);
-
-                    books.Add(book);
-                }
-
-                //Оставить на потом \ полный вывод БД на страничку
-
-                //while (reader.Read())
+                //for (int i = 0; i< 100; i++)
                 //{
+                //    reader.Read();
                 //    Book book = new Book();
                 //    book.BookCode = Convert.ToString(reader["BookCode"]);
                 //    book.BookDescription = Convert.ToString(reader["BookDescription"]);
@@ -55,6 +37,24 @@ namespace Data1C.Model
 
                 //    books.Add(book);
                 //}
+
+                //Оставить на потом \ полный вывод БД на страничку
+
+                while (reader.Read())
+                {
+                    Book book = new Book();
+                    book.BookCode = Convert.ToString(reader["BookCode"]);
+                    book.BookDescription = Convert.ToString(reader["BookDescription"]);
+                    book.Author = Convert.ToString(reader["Author"]);
+                    book.AuthorMark = Convert.ToString(reader["AuthorMark"]);
+                    book.ProdYear = Convert.ToString(reader["ProdYear"]);
+                    book.DateOfLastChanges = Convert.ToDateTime(reader["DateOfLastChanges"]);
+                    book.DateOfCreation = Convert.ToDateTime(reader["DateOfCreation"]);
+                    book.Publisher = Convert.ToString(reader["Publisher"]);
+                    book.Location = Convert.ToString(reader["Location"]);
+
+                    books.Add(book);
+                }
                 conn.Close();
             };
             return books;

@@ -1,5 +1,7 @@
 ﻿using Data1C.Model;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Formatters;
+using System.Threading.Tasks.Dataflow;
 
 namespace Data1C.Controllers
 {
@@ -15,33 +17,30 @@ namespace Data1C.Controllers
 
         // GET: BooksController
         [HttpGet]
-        public ActionResult Index()
+        public ActionResult Index(string id)
         {
+
             IEnumerable<Book> books = BookDataAccessLayer.GetAllBooks(10);
             List<Book> result = new List<Book>();
             result.AddRange(books);
 
-            return View("books",result);
+            var SearchedBooks = from m in result 
+                                select m;
+
+            if (!String.IsNullOrEmpty(id))
+            {
+                SearchedBooks = SearchedBooks.Where(s => s.BookDescription!.Contains(id));
+            }
+
+
+
+            return View("books",SearchedBooks);
         }
 
         //[HttpPost]
-        //public ActionResult Index(List<Book> books,int DBlimit)
+        //public ActionResult Index(int DBlimit)
         //{
-
-        //    if (DBlimit == 0)
-        //    {
-
-        //        return View("books", books);
-        //    }
-        //    else if (DBlimit == 10)
-        //    {
-                
-        //    }
-        //    else
-        //    {
-        //    }
-
-        //    return View("books", books);
+        //    return View("POST");
         //}
 
         // GET: BooksController/Details/5

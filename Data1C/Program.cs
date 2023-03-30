@@ -18,11 +18,15 @@ namespace Data1C
             //    endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
             //});
 
+            app.UseRouting();
+
+            app.UseStaticFiles();
+
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
-            app.UseStaticFiles();
+
 
             app.Run();
         }
