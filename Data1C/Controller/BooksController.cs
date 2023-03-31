@@ -1,40 +1,41 @@
 ﻿using Data1C.Model;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Formatters;
-using System.Threading.Tasks.Dataflow;
+using Mysqlx.Crud;
 
 namespace Data1C.Controllers
 {
     public class BooksController : Controller
     {
 
-        BookDataAccessLayer BookDataAccessLayer;
+        static BookDataAccessLayer? BookDataAccessLayer;
+        static IEnumerable<Book>? books;
+        List<Book> BooksList;
 
         public BooksController()
         {
             BookDataAccessLayer = new BookDataAccessLayer();
+            BooksList = new List<Book>();
+            books = BookDataAccessLayer.GetAllBooks();
         }
 
         // GET: BooksController
         [HttpGet]
-        public ActionResult Index(string id)
+        public ActionResult Index(int limit, string search)
         {
-
-            IEnumerable<Book> books = BookDataAccessLayer.GetAllBooks(10);
-            List<Book> result = new List<Book>();
-            result.AddRange(books);
-
-            var SearchedBooks = from m in result 
-                                select m;
-
-            if (!String.IsNullOrEmpty(id))
+            if (BooksList.Count == 0)
             {
-                SearchedBooks = SearchedBooks.Where(s => s.BookDescription!.Contains(id));
+                BooksList.AddRange(books!);
             }
 
+            var SearchedBooks = from m in BooksList 
+                                select m;
 
+            if (!String.IsNullOrEmpty(search))
+            {
+                SearchedBooks = SearchedBooks.Where(m => m.BookDescription!.Contains(search));
+            }
 
-            return View("books",SearchedBooks);
+            return View("books", BookDataAccessLayer!.GetRange(SearchedBooks, limit));
         }
 
         //[HttpPost]
@@ -62,7 +63,7 @@ namespace Data1C.Controllers
         {
             try
             {
-                BookDataAccessLayer.AddBook(book);
+                BookDataAccessLayer!.CreateBook(book);
 
                 return RedirectToAction("Index");
             }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WVlC05qh70dM+8EAsYPx29h9QcDAO5Ywd229HmfYjtA=",
+  "Hash": "8W4boSuN0jLyE04In3PAMW+de/qfOQ1rbi5Y714EbIg=",
   "Source": "Data1C",
   "BasePath": "_content/Data1C",
   "Mode": "Default",
@@ -34,6 +34,23 @@
       "OriginalItemSpec": "wwwroot\\images\\blue-white-liquid-marble-abstract-background.jpg"
     },
     {
+      "Identity": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\images\\file-upload.png",
+      "SourceId": "Data1C",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\",
+      "BasePath": "_content/Data1C",
+      "RelativePath": "images/file-upload.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\file-upload.png"
+    },
+    {
       "Identity": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\images\\logo.svg",
       "SourceId": "Data1C",
       "SourceType": "Discovered",
@@ -49,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\logo.svg"
+    },
+    {
+      "Identity": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\images\\open-book.png",
+      "SourceId": "Data1C",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\",
+      "BasePath": "_content/Data1C",
+      "RelativePath": "images/open-book.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\open-book.png"
     },
     {
       "Identity": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\images\\PlayBold.ttf",

@@ -14,20 +14,16 @@
         <option value="1000">Показать 1000</option>
     </select>*@
 
-    @using (Html.BeginForm())
+    @using (Html.BeginForm("Index","books",FormMethod.Get))
     {
         <div>
-            @Html.DropDownList("SelectedCount", new SelectList(new[] {0,10,100} ))
-            <button type="submit">UVIDET:</button>
+            @Html.DropDownList("limit", new SelectList(new[] {0,10,100} ), new {@class = "form-control", style="width: 100px;"})
+            <button class="btn btn-outline-dark" type="submit">LIMIT</button>
 
-            <form asp-controller="Books" asp-action="Index" method="get">
-                Поиск: <input type="text" name="id"/>
-                    <input type="submit" value="Filter"/>
-            </form>
+            @*Исправить подключение CSS*@
+            @Html.TextBox("search", new {@class = "form-control", style="width: 500px;"})
+            <button class="btn btn-outline-dark" type="reset">X</button>
         </div>
-
-
-
     }
 
 </p>

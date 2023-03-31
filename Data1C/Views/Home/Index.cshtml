@@ -15,10 +15,16 @@
 
             </div>
             <div class="buttonContainer">
-                <a itemid="id" class="btn btn-primary" asp-action="LibraryData">Просмотр базы</a>
-                <a class="btn btn-danger disabled" asp-action="Get1C">1C экспорт</a>
-                <a class="btn" asp-action="GetDBConnect">---</a>
-                <a class="btn" asp-action="DownloadToDB">---</a>
+                <a itemid="id" class="btn btn-outline-primary m-2" asp-action="LibraryData">
+                    <div><img src="~/images/open-book.png" style="width:45px;height:45px;" /></div>
+                    Просмотр базы
+                </a>
+                <a class="btn btn-danger btn-outline-danger disabled m-2" asp-action="Get1C">
+                    <div><img src="~/images/file-upload.png" style="width:45px;height:45px;" /></div>
+                    1C экспорт
+                </a>
+                <a class="btn btn-outline-dark m-2" asp-action="GetDBConnect">Кнопка</a>
+                <a class="btn btn-outline-dark m-2" asp-action="DownloadToDB">Кнопка</a>
             </div>
         </div>
     </body>

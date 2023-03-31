@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets\\images\\blue-white-liquid-marble-abstract-background.jpg"
     },
     {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\images\\file-upload.png",
+      "PackagePath": "staticwebassets\\images\\file-upload.png"
+    },
+    {
       "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\images\\logo.svg",
       "PackagePath": "staticwebassets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\images\\open-book.png",
+      "PackagePath": "staticwebassets\\images\\open-book.png"
     },
     {
       "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap-grid.css",
