@@ -3,11 +3,18 @@
     Layout = "_ViewImports"; 
 }
 
+
+
+
+
 <html>
     <head>
         <meta name="viewport" content="width=device-width"/>
         <title>UNAVOIDABLE</title>
         <link rel="stylesheet" href="~/lib/bootstrap.css"/>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+
     </head>
     <body class="bg-body">
         <div class="content">
@@ -19,12 +26,17 @@
                     <div><img src="~/images/open-book.png" style="width:45px;height:45px;" /></div>
                     Просмотр базы
                 </a>
+				<a class="btn btn-outline-primary m-2" asp-action="GetCharts">
+                    <div><img src="~/images/graph-svgrepo-com.svg" style="width:45px;height:45px;"/></div>
+                    Просмотреть сводку
+                    </a>
                 <a class="btn btn-danger btn-outline-danger disabled m-2" asp-action="Get1C">
                     <div><img src="~/images/file-upload.png" style="width:45px;height:45px;" /></div>
                     1C экспорт
                 </a>
                 <a class="btn btn-outline-dark m-2" asp-action="GetDBConnect">Кнопка</a>
                 <a class="btn btn-outline-dark m-2" asp-action="DownloadToDB">Кнопка</a>
+
             </div>
         </div>
     </body>
@@ -34,5 +46,33 @@
 
 }
 
-<script>
+
+
+<div id="chartContainer">
+    ???
+</div>
+
+
+<script type="text/javascript">
+
+	window.onload = function () {
+		var chart = new CanvasJS.Chart("chartContainer", {
+			theme: "light2",
+			animationEnabled: true,
+			title: {
+				text: "Тестовый график"
+			},
+			subtitles: [
+				{ text: "Информация о библиотеке" }
+			],
+			data: [
+				{
+					type: "line", //change type to bar, line, area, pie, etc					
+					dataPoints: @Html.Raw(ViewBag.DataPoints) 
+				}
+			]
+		});
+
+		chart.render();
+	};
 </script>

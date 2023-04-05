@@ -51,4 +51,8 @@
     <None Include="wwwroot\styles\BaseStyle.css" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\scripts\" />
+  </ItemGroup>
+
 </Project>

@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\images\\file-upload.png"
     },
     {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\images\\graph-svgrepo-com.svg",
+      "PackagePath": "staticwebassets\\images\\graph-svgrepo-com.svg"
+    },
+    {
       "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\images\\logo.svg",
       "PackagePath": "staticwebassets\\images\\logo.svg"
     },
@@ -151,6 +155,34 @@
     {
       "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\lib\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\scripts\\CanvasJSVueComponent.vue",
+      "PackagePath": "staticwebassets\\scripts\\CanvasJSVueComponent.vue"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\scripts\\canvasjs.angular.component.ts",
+      "PackagePath": "staticwebassets\\scripts\\canvasjs.angular.component.ts"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\scripts\\canvasjs.min.js",
+      "PackagePath": "staticwebassets\\scripts\\canvasjs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\scripts\\canvasjs.react.js",
+      "PackagePath": "staticwebassets\\scripts\\canvasjs.react.js"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\scripts\\instruction.txt",
+      "PackagePath": "staticwebassets\\scripts\\instruction.txt"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\scripts\\jquery.canvasjs.min.js",
+      "PackagePath": "staticwebassets\\scripts\\jquery.canvasjs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\scripts\\license.txt",
+      "PackagePath": "staticwebassets\\scripts\\license.txt"
     },
     {
       "Id": "C:\\Users\\am.belov\\source\\repos\\Data1C\\Data1CViewer\\Data1C\\wwwroot\\styles\\BaseStyle.css",

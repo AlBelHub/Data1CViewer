@@ -18,11 +18,11 @@
     {
         <div>
             @Html.DropDownList("limit", new SelectList(new[] {0,10,100} ), new {@class = "form-control", style="width: 100px;"})
-            <button class="btn btn-outline-dark" type="submit">LIMIT</button>
+            <button class="btn btn-outline-dark" type="submit">Огранич. списка</button>
 
             @*Исправить подключение CSS*@
-            @Html.TextBox("search", new {@class = "form-control", style="width: 500px;"})
-            <button class="btn btn-outline-dark" type="reset">X</button>
+            @Html.TextBox("search",null, new {@class = "form-control", style="width: 500px;"})
+            <button class="btn btn-outline-dark" type="reset">Сбросить фильтры</button>
         </div>
     }
 

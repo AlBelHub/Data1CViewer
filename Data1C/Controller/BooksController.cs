@@ -1,6 +1,5 @@
 ﻿using Data1C.Model;
 using Microsoft.AspNetCore.Mvc;
-using Mysqlx.Crud;
 
 namespace Data1C.Controllers
 {
