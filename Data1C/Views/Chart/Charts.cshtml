@@ -3,6 +3,7 @@
     Layout = "_ViewImports";
 }
 
+<html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>UNAVOIDABLE</title>
@@ -10,4 +11,61 @@
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
     <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
 </head>
+<body class="bg-body">
 
+</body>
+</html>
+
+<div id="chartContainer">
+    ???
+</div>
+
+<script type="text/javascript">
+
+    window.onload = function () {
+
+        var dataPoints = [];
+
+        var chart = new CanvasJS.Chart("chartContainer", {
+            animationEnabled: true,
+            theme: "light2",
+            animationEnabled: true,
+            zoomEnabled: true,
+            title: {
+                text: "Тестовый график"
+            },
+            axisX: {
+                titleFontSize: 24,
+                crosshair: {
+                    enabled: true,
+                    snapToDataPoint: true
+                }
+            },
+            axisY: {
+                crosshair: {
+                    enabled: true,
+                    snapToDataPoint: true
+                },
+            },
+            data: [{
+                type: "column",
+                xValueFormatString: "MMM DD YYYY",
+                dataPoints: dataPoints
+            }]
+        });
+
+        function addData(data) {
+            for (var i = 0; i < data.length; i++) {
+                dataPoints.push({
+                    x: new Date(data[i].x),
+                    y: data[i].y
+                });
+            }
+            chart.render();
+
+        }
+
+        $.getJSON("chart/json", addData);
+
+    }
+</script>

@@ -6,9 +6,9 @@ namespace Data1C.Controllers
 {
     public class ChartController : Controller
     {
-        public ActionResult Charts()
+        public ActionResult Index()
         {
-            return View();
+            return View("Charts");
         }
 
         public ContentResult JSON()
@@ -37,7 +37,7 @@ namespace Data1C.Controllers
             JsonSerializerSettings _jsonSettings = new JsonSerializerSettings()
             { NullValueHandling = NullValueHandling.Ignore };
 
-            return Content(JsonConvert.SerializeObject(dataPoints, _jsonSettings), "home/json");
+            return Content(JsonConvert.SerializeObject(dataPoints, _jsonSettings), "chart/json");
         }
 
     }
