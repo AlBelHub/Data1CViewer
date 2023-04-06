@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Data1C.Model;
-using Org.BouncyCastle.Asn1.Mozilla;
 using Newtonsoft.Json;
-using System.Runtime;
 
 namespace Data1C.Controllers
 {
@@ -10,47 +8,51 @@ namespace Data1C.Controllers
     {
         public ActionResult Index()
         {
-
-            //TEST TEST TEST
-			BookDataAccessLayer BookAccess = new BookDataAccessLayer();
-			List<Book> BooksToDataPoints = BookAccess.GetAllBooks().ToList();
-			List<DataPoint> dataPoints = new List<DataPoint>();
-
-            Random rand = new Random();
-
-			for (int i = 0; i < 500; i++)
-			{
-                //dataPoints.Add(new DataPoint((double)i, BooksToDataPoints[i].DateOfCreation));
-
-                dataPoints.Add(new DataPoint(i, rand.Next(0, 10000)));
-
-			}
-
-			ViewBag.DataPoints = JsonConvert.SerializeObject(dataPoints);
-			//TEST TEST TEST
-
-
-
-
-			return View();
+            return View();
         }
+
+        public ActionResult GetCharts()
+        {
+            return RedirectToAction("Charts", "Chart");
+        }
+
+        public ContentResult JSON()
+        {
+            BookDataAccessLayer BookAccess = new BookDataAccessLayer();
+            List<Book> BooksToDataPoints = BookAccess.GetAllBooks().ToList();
+            List<DataPoint> dataPoints = new List<DataPoint>();
+
+            int Count = 0;
+            int ListCount = BooksToDataPoints.Count - 1;
+
+            for (int i = 0; i < ListCount; i++)
+            {
+                if (BooksToDataPoints[i].DateOfCreation.ToString("D") == BooksToDataPoints[i + 1].DateOfCreation.ToString("D"))
+                {
+                    Count++;
+                    dataPoints.Add(new DataPoint(Count, BooksToDataPoints[i].DateOfLastChanges));
+                }
+                else
+                {
+                    Count = 1;
+                    dataPoints.Add(new DataPoint(Count, BooksToDataPoints[i].DateOfLastChanges));
+                }
+            }
+
+            JsonSerializerSettings _jsonSettings = new JsonSerializerSettings()
+            { NullValueHandling = NullValueHandling.Ignore };
+
+            return Content(JsonConvert.SerializeObject(dataPoints, _jsonSettings), "home/json");
+        }
+
 
         public ActionResult LibraryData()
         {
             return RedirectToAction("Index", "Books");
         }
-
-        public ActionResult GetCharts()
-        {
-
-
-
-            return RedirectToAction("index", "home");
-        }
         
         public ActionResult Get1C()
         {
-
             ConnectTo1C conn = new ConnectTo1C();
             JsonParser parser = new JsonParser();
             DBUtils db = new DBUtils();
@@ -61,13 +63,5 @@ namespace Data1C.Controllers
 
 			return RedirectToAction("Index", "Books");
 		}
-
-        [HttpGet]
-        public void MainMenu_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
     }
 }

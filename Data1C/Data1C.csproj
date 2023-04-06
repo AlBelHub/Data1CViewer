@@ -39,6 +39,7 @@
     <Content Remove="C:\Users\am.belov\.nuget\packages\bootstrap\5.2.3\contentFiles\any\any\wwwroot\css\bootstrap.rtl.css.map" />
     <Content Remove="C:\Users\am.belov\.nuget\packages\bootstrap\5.2.3\contentFiles\any\any\wwwroot\css\bootstrap.rtl.min.css" />
     <Content Remove="C:\Users\am.belov\.nuget\packages\bootstrap\5.2.3\contentFiles\any\any\wwwroot\css\bootstrap.rtl.min.css.map" />
+    <Content Remove="Views\Home\Charts.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -48,6 +49,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\Chart\Charts.cshtml" />
     <None Include="wwwroot\styles\BaseStyle.css" />
   </ItemGroup>
 

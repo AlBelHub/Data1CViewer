@@ -5,27 +5,28 @@ namespace Data1C.Model
 {
 	[DataContract]
 	public class DataPoint
-
 	{
-		[DataMember(Name = "x")]
-		public Nullable<double> X;
-		[DataMember(Name = "y")]
+        [DataMember(Name = "x")]
+        public Nullable<long> TimeStamp;
+        [DataMember(Name = "y")]
 		public Nullable<double> Y;
 
-		//[DataMember(Name = "y")]
-		//public string dt;
+        //[DataMember(Name = "y")]
+        //public Nullable<double> Y;
 
-		public DataPoint(double x, double y)
+
+        //public DataPoint(double x, double y)
+        //{
+        //	this.X = x;
+        //	this.Y = y;
+        //}
+
+        public DataPoint(double y, DateTime dateTime)
 		{
-			this.X = x;
 			this.Y = y;
+			var baseDate = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
+			this.TimeStamp = (long)(dateTime.ToUniversalTime() - baseDate).TotalMilliseconds;
 		}
-
-		//public DataPoint(double x, DateTime dateTime)
-		//{
-		//	this.X = x;
-		//	this.dt = $"new Date({dateTime.Year}, {dateTime.Month}, {dateTime.Day})"; /*+ "dd MMMM yyyy");*/
-		//}
 
 	}
 }
